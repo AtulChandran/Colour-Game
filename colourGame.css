@@ -1,0 +1,76 @@
+.square{
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.3s;
+}
+body{
+	background-color: #232323;
+	margin:0;
+	
+}
+#message{
+	display: inline-block;
+	width: 20%;
+/*	color: steelblue;*/
+	font-family: 'Rammetto One', cursive;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 13px;
+	transition: all 0.6s;
+}
+h1{
+	color: white;
+	line-height: 1.1;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	background: steelblue;
+	margin:0;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: 'Rammetto One', cursive;
+	letter-spacing: 1px;
+}
+button{
+	font-family: 'Rammetto One', cursive;
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	color:steelblue;
+	font-weight: 700;
+	letter-spacing: 1px;
+	transition: all 0.4s;
+	height: 100%;
+	outline: none;
+}
+
+button:hover{
+	color: white;
+	background:blue;
+}
+
+#colourDisplay{
+	font-size: 200%;
+}
+
+.selected{
+	background: blue;
+}
+
+#stripe{
+	background-color: white;
+	style:30px;
+	text-align: center;
+	color: black;
+}
+#stripe,span#message{
+	color: blue;
+}
+#container{
+	max-width: 600px;
+	margin: 20px auto; /*This line centers the content 0--- top and bottom  auto----- left and right */
+}
